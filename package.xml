@@ -1,0 +1,23 @@
+<package format="3">
+  <name>nodelet_or_node</name>
+  <version>1.0.0</version>
+  <description>Helper package for easy launch of a nodelet either standalone or in a manager.</description>
+  <maintainer email="peckama2@fel.cvut.cz">Martin Pecka</maintainer>
+  <author email="peckama2@fel.cvut.cz">Martin Pecka</author>
+  <license>BSD</license>
+
+  <url type="website">https://github.com/peci1/nodelet_or_node</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>bondcpp</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>nodelet</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>unique_id</build_depend>
+
+  <exec_depend>bondcpp</exec_depend>
+  <exec_depend>nodelet</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>unique_id</exec_depend>
+</package>
